@@ -1,0 +1,43 @@
+26.05.2024 23:44:00   Configs Loaded: /home/ingemtz/project_SoC/IP_MODULE/ID1000500B_config.csv
+
+MMEM_Y_IN
+MMEM_Z_OUT
+CREG_CONF_SIZEY
+
+26.05.2024 23:44:00   Connected to /dev/ttyACM0: IP_CORE_CONVOLUTION_PROCESSOR, core convolution
+26.05.2024 23:44:08   Get ID
+26.05.2024 23:44:08   ID: 1000500B
+26.05.2024 23:44:08   Empty variable ID created
+
+
+26.05.2024 23:44:14   Get Status
+26.05.2024 23:44:14   STATUS: 00000000
+26.05.2024 23:44:14   Empty variable STATUS created
+
+
+26.05.2024 23:44:57   Variable size_Y created
+
+
+26.05.2024 23:45:00   Write ConfReg CREG_CONF_SIZEY with 1 flits from variable size_Y
+
+
+26.05.2024 23:47:28   Variable data_Y created
+
+
+26.05.2024 23:48:33   Write Memory MMEM_Y_IN with 5 flits from variable data_Y
+
+
+26.05.2024 23:49:09   Starting IP: IP_CORE_CONVOLUTION_PROCESSOR
+26.05.2024 23:49:13   Get Status
+26.05.2024 23:49:13   STATUS: 00000001
+26.05.2024 23:50:57   Empty variable data_Z created
+
+
+26.05.2024 23:50:58   Read Memory 14 flits from MMEM_Z_OUT to varible data_Z
+26.05.2024 23:50:58   Response: 14 flits
+
+
+26.05.2024 23:51:08   Clear INT 0
+26.05.2024 23:51:14   Get Status
+26.05.2024 23:51:14   STATUS: 00000000
+26.05.2024 23:51:56   Script IP_CORE_CONVOLUTION_PROCESSOR_20240526-235128.ips saved

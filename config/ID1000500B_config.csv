@@ -1,0 +1,10 @@
+type,alphaID,numID,size,mode,description
+IPID,IP_CORE_CONVOLUTION_PROCESSOR,0x1000500B,,,core convolution
+CFG,MMEM_Y_IN,0b00000,32,W,Ram memory in
+CFG,MMEM_Z_OUT,0b00010,64,R,Ram memory out
+CFG,AMEM_Y_IN,0b00001,1,W,Set Write Address Pointer of MMEM_Y_IN
+CFG,AMEM_Z_OUT,0b00011,1,W,Set Read Address Pointer of MMEM_Z_OUT
+CFG,CREG_CONF_SIZEY,0b00100,1,W,register config size Y
+CFG,AREG_CONF_SIZEY,0b00101,1,W,Set Write Address of CREG_CONF_SIZEY
+CFG,STATUS,0b11110,1,B,IP status register
+CFG,IPID,0b11111,1,R,IP ID

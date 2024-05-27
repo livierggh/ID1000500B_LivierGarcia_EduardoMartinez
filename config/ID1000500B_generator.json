@@ -1,0 +1,51 @@
+{
+    "ipdata": {
+        "comment": "core convolution",
+        "enom": "IP_CORE_CONVOLUTION_PROCESSOR",
+        "ipid": "1000500B"
+    },
+    "memories": {
+        "cfgReg": {
+            "comment": "register config size Y",
+            "enom": "CREG_CONF_SIZEY",
+            "size": "1",
+            "val": "5'b00100"
+        },
+        "memIn": [
+            {
+                "comment": "Ram memory in",
+                "enom": "MMEM_Y_IN",
+                "size": "32",
+                "val": "5'b00000"
+            }
+        ],
+        "memInStream": {
+        },
+        "memOut": [
+            {
+                "comment": "Ram memory out",
+                "enom": "MMEM_Z_OUT",
+                "size": "64",
+                "val": "5'b00010"
+            }
+        ],
+        "memOutStream": {
+        }
+    },
+    "regs": {
+        "reg1": "",
+        "reg10": "",
+        "reg11": "",
+        "reg12": "",
+        "reg13": "",
+        "reg14": "",
+        "reg15": "",
+        "reg2": "",
+        "reg3": "",
+        "reg4": "",
+        "reg5": "",
+        "reg6": "",
+        "reg7": "",
+        "reg9": ""
+    }
+}
