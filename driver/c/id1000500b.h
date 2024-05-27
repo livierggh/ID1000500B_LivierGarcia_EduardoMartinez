@@ -2,6 +2,11 @@
 #define __ID1000500B_H__
 
 #include <stdint.h>
+#define MAX_DATA_Y 32
+#define MAX_DATA_Z 64
+#define SIZE_MEM_H 10
+#define ERROR -1
+#define CORRECT 0
 
 /** Global variables declaration (public) */
 /* These variables must be declared "extern" to avoid repetitions. They are defined in the .c file*/
@@ -13,7 +18,7 @@
 uint32_t id1000500b_init(const char *connector, uint8_t nic_addr, uint8_t port, const char *csv_file);
 
 /*Convolution*/
-//uint32_t conv(uint8_t *dataY, uint8_t sizeY, uint16_t *result); 
+uint32_t conv(uint8_t *dataY, uint8_t sizeY, uint16_t *result); 
 
 /* Write data*/
 uint32_t id1000500b_writeData(uint32_t *data, uint32_t data_size);
